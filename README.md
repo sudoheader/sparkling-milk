@@ -13,3 +13,5 @@ This extension will inject emojis like 🥛, ⬜, ⚪, ✨, ☁️, ❄️, and 
 ## How to use
 
 It's simple. Just click on the blue "Show Answers" button to toggle answers on or off. Click the red "Hide Answers" button to hide it. That's really it.
+
+[Video](https://github.com/sudoheader/sparkling-milk/blob/master/sparkling-milk.mp4)
