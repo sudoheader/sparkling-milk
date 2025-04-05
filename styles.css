@@ -1,0 +1,38 @@
+/**
+ * styles.css
+ *
+ * Defines the appearance and animation for the sparkling emojis.
+ */
+
+/* Base style for the emoji elements */
+.sparkling-milk-emoji {
+  position: fixed; /* Position relative to the viewport */
+  z-index: 99999; /* Ensure it's on top of most content */
+  pointer-events: none; /* Allow clicks to pass through */
+  user-select: none; /* Prevent text selection */
+  opacity: 0; /* Start invisible */
+  animation-name: sparkle-fade;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; /* Keep the final state (opacity 0) */
+  /* Default font size, can be overridden by JS */
+  font-size: 24px;
+  /* Add a subtle text shadow for better visibility on various backgrounds */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Keyframe animation for the sparkling (fade in/out) effect */
+@keyframes sparkle-fade {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Start slightly smaller */
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1); /* Briefly scale up slightly */
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8); /* End slightly smaller */
+  }
+}
+

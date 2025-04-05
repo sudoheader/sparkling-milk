@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#F0F0F0" rx="16"/>
+
+  <path d="M28 40 L28 34 L64 24 L100 34 L100 40 L28 40 Z" fill="#E0E0E0"/>
+  <path d="M28 40 L64 32 L100 40" stroke="#BDBDBD" stroke-width="2" fill="none"/>
+
+  <rect x="28" y="40" width="72" height="64" fill="white"/>
+  <rect x="28" y="40" width="72" height="64" stroke="#BDBDBD" stroke-width="2"/>
+
+  <rect x="40" y="58" width="48" height="28" fill="#A0C4FF" rx="4"/>
+   <text x="64" y="78" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">MILK</text>
+
+</svg>
+

@@ -1,0 +1,15 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" fill="#F0F0F0" rx="8"/>
+
+  <path d="M10 15 L10 12 L24 8 L38 12 L38 15 L10 15 Z" fill="#E0E0E0"/>
+  <path d="M10 15 L24 11 L38 15" stroke="#BDBDBD" stroke-width="1" fill="none"/>
+
+
+  <rect x="10" y="15" width="28" height="25" fill="white"/>
+  <rect x="10" y="15" width="28" height="25" stroke="#BDBDBD" stroke-width="1"/>
+
+  <rect x="15" y="22" width="18" height="10" fill="#A0C4FF" rx="2"/>
+  <text x="24" y="30" font-family="Arial, sans-serif" font-size="7" fill="white" text-anchor="middle">MILK</text>
+
+</svg>
+
